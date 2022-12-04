@@ -17,3 +17,8 @@ coverage
 # Dotenv
 !.env.example
 .env*
+
+# Replit
+.build
+.replit
+replit.nix

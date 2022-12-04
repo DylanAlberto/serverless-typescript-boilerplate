@@ -5,7 +5,7 @@ import { hello } from './src/functions';
 
 const serverlessConfiguration: AWS = {
   service: 'serverless-typescript',
-  frameworkVersion: '2',
+  frameworkVersion: '3',
   useDotenv: true,
   custom: {
     webpack: {
@@ -58,7 +58,7 @@ const serverlessConfiguration: AWS = {
   ],
   provider: {
     name: 'aws',
-    runtime: 'nodejs14.x',
+    runtime: 'nodejs16.x',
     iamRoleStatements: [
       {
         Effect: 'Allow',
